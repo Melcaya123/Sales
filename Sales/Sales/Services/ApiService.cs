@@ -7,8 +7,9 @@
     using System.Net.Http;
     using System.Threading.Tasks;
 
-    public class ApiServices
+    public class ApiService
     {
+
         public async Task<Response> GetList<T>(string urlBase, string prefix, string controller)
         {
             try
