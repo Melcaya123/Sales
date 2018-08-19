@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sales.Common.Models
+﻿namespace Sales.Common.Models
 {
     public class Response
     {
@@ -13,6 +7,5 @@ namespace Sales.Common.Models
         public string Message { get; set; }
 
         public object Result { get; set; }
-
     }
 }

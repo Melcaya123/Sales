@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BAD18A6A-B114-4794-86BD-9D7B8A06464B}</ProjectGuid>
+    <ProjectGuid>{AADD9A56-1E32-4632-9BEA-1154D1A4445F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -222,7 +222,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\SalesBackend - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -292,11 +291,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sales.Common\Sales.Common.csproj">
-      <Project>{0bbf6d2c-546e-49aa-8d7d-b6a7c1de2ee9}</Project>
+      <Project>{d37c24db-359e-4b60-9af7-ba2916d89b97}</Project>
       <Name>Sales.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sales.Domain\Sales.Domain.csproj">
-      <Project>{99c82e69-fd8d-4172-8e90-0e0f3021fcb4}</Project>
+      <Project>{ac0edc2f-7ced-44c5-a4d1-48eb260ff544}</Project>
       <Name>Sales.Domain</Name>
     </ProjectReference>
   </ItemGroup>
@@ -316,9 +315,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61574</DevelopmentServerPort>
+          <DevelopmentServerPort>53060</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61574/</IISUrl>
+          <IISUrl>http://localhost:53060/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

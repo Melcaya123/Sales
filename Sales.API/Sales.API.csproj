@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{B7ADBEB4-B909-4085-A0ED-F5C47D703A79}</ProjectGuid>
+    <ProjectGuid>{3827CC6B-A284-41AB-91C2-CA10296203D5}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -340,11 +340,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sales.Common\Sales.Common.csproj">
-      <Project>{0bbf6d2c-546e-49aa-8d7d-b6a7c1de2ee9}</Project>
+      <Project>{d37c24db-359e-4b60-9af7-ba2916d89b97}</Project>
       <Name>Sales.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sales.Domain\Sales.Domain.csproj">
-      <Project>{99c82e69-fd8d-4172-8e90-0e0f3021fcb4}</Project>
+      <Project>{ac0edc2f-7ced-44c5-a4d1-48eb260ff544}</Project>
       <Name>Sales.Domain</Name>
     </ProjectReference>
   </ItemGroup>
@@ -364,9 +364,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61580</DevelopmentServerPort>
+          <DevelopmentServerPort>53064</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61580/</IISUrl>
+          <IISUrl>http://localhost:53064/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
