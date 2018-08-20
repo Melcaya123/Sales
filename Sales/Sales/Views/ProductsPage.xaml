@@ -25,6 +25,12 @@
                                     <ColumnDefinition Width="2*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
+                                <Image
+                                    Grid.Column="0"
+                                    WidthRequest="100"
+                                    Source="{Binding ImageFullPath}">
+                                    
+                                </Image>
                                 <Label
                                     FontAttributes="Bold"
                                     Grid.Column="1"
